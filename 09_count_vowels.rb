@@ -3,6 +3,9 @@
 # vowels = ['a', 'e', 'i', 'o', 'u']
 
 # Hint: methods to use: include?
+def count_vowels(str)
+  str.scan(/[aeoui]/).count
+end
 
 p count_vowels("qwrty") == 0
 p count_vowels("abcd")==1
