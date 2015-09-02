@@ -4,6 +4,12 @@
 
 
 def longest_word(sentence)
+  sentence.split(" ").max_by(&:length) # Best method
+  
+  # OR
+  #arr = sentence.split(" ")
+  #arr.sort! { |a, b| b.length <=> a.length }
+  #arr[0]
 end
 
 
