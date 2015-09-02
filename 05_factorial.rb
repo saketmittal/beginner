@@ -5,6 +5,7 @@
 # BONUS: implement factorial recursively :)
 
 def factorial(n)
+  n.zero? ? 1 : n * factorial(n - 1)
 end
 
 p factorial(0)==1
