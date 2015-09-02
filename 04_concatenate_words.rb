@@ -3,6 +3,7 @@
 # HINT: methods to use: join
 
 def concatenate_words(sentence)
+  sentence.join(" ")
 end
 
 # watch out for the full stop at the end!
