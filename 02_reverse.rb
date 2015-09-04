@@ -7,18 +7,7 @@
 # read about the following methods - String#split, Array#join, <<
 
 def reverse(word)
-  werd = []
 
-  string.split("").each do |x|
-    werd << x
-  end
-
-  counter = werd.length
-  while counter >= 0
-    counter -= 1
-  end
-
-  return werd
 end
 
 
