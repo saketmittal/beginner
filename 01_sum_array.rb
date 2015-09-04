@@ -11,8 +11,6 @@ def sum_array(array_num)
     #   p sum
     # end
     
-    # p sum = arr.inject(0, :+)
-    
     p sum = array_num.inject(0) { |sum, item| sum + item } # best
 end
 
