@@ -24,7 +24,7 @@ p mean([1,2,3,4,5])==3
 # Hint: use sort and %
 
 def median(array_num)
-  sorted = array_num.sort
+  array_num = array_num.sort
 
   if array_num.length % 2 != 0
     array_num[array_num.length/2]
