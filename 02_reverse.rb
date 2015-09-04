@@ -7,17 +7,9 @@
 # read about the following methods - String#split, Array#join, <<
 
 def reverse(word)
-  werd = ''
-
-  word.split("").each do |x|
-    werd << x
-  end
-
-  counter = werd.length
-  while counter >= 0
-    counter -= 1
-  end
-
+  werd = ""
+  chars = word.each_char.to_a
+  chars.size.times{werd << chars.pop}
   return werd
 end
 
